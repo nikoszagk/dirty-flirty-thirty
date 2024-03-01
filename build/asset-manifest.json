@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/dirty-flirty-thirty/static/css/main.3572f698.css",
-    "main.js": "/dirty-flirty-thirty/static/js/main.4ae3190e.js",
+    "main.js": "/dirty-flirty-thirty/static/js/main.e762c561.js",
     "static/js/453.bf765f10.chunk.js": "/dirty-flirty-thirty/static/js/453.bf765f10.chunk.js",
     "static/media/cupcake.jpg": "/dirty-flirty-thirty/static/media/cupcake.bd2036085272adf5a780.jpg",
     "index.html": "/dirty-flirty-thirty/index.html",
     "main.3572f698.css.map": "/dirty-flirty-thirty/static/css/main.3572f698.css.map",
-    "main.4ae3190e.js.map": "/dirty-flirty-thirty/static/js/main.4ae3190e.js.map",
+    "main.e762c561.js.map": "/dirty-flirty-thirty/static/js/main.e762c561.js.map",
     "453.bf765f10.chunk.js.map": "/dirty-flirty-thirty/static/js/453.bf765f10.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3572f698.css",
-    "static/js/main.4ae3190e.js"
+    "static/js/main.e762c561.js"
   ]
 }
