@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/dirty-flirty-thirty/static/css/main.e6c13ad2.css",
+    "main.js": "/dirty-flirty-thirty/static/js/main.699238ed.js",
+    "static/js/453.bf765f10.chunk.js": "/dirty-flirty-thirty/static/js/453.bf765f10.chunk.js",
+    "static/media/cupcake.jpg": "/dirty-flirty-thirty/static/media/cupcake.bd2036085272adf5a780.jpg",
+    "index.html": "/dirty-flirty-thirty/index.html",
+    "main.e6c13ad2.css.map": "/dirty-flirty-thirty/static/css/main.e6c13ad2.css.map",
+    "main.699238ed.js.map": "/dirty-flirty-thirty/static/js/main.699238ed.js.map",
+    "453.bf765f10.chunk.js.map": "/dirty-flirty-thirty/static/js/453.bf765f10.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.699238ed.js"
+  ]
+}
