@@ -21,7 +21,7 @@ const HeroSection = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        <Title>Dirty Flirty Thirty!</Title>
+        <Title>Dirty Flirty 30s</Title>
       </Container>
     );
   };

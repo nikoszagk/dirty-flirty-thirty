@@ -4,10 +4,10 @@ import { motion } from 'framer-motion';
 
 const FloatingFrame = styled(motion.div)`
   padding: 20px;
-  margin: 0rem auto 5rem; // Reduced top margin to move the frame up
+  margin: 0rem auto 5rem;
   max-width: 600px;
-  background-color: white;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  background-color: rgba(255, 255, 255, 0.4); // White with some transparency
+
   border-radius: 20px;
   text-align: center;
 `;
@@ -24,7 +24,7 @@ const Heading = styled.h2`
 `;
 
 const Text = styled.p`
-  color: #666;
+  color: #black;
 `;
 
 const DetailsSection = () => {
@@ -36,10 +36,15 @@ const DetailsSection = () => {
         transition={{ type: "spring", stiffness: 100 }}
         whileHover={{ scale: 1.1 }}
       >
-        <Heading>When & Where</Heading>
-        <Text>Date: March 10th, 2024</Text>
-        <Text>Location: 123 Party Lane, Celebration City</Text>
-        <Text>Time: 7:00 PM onwards</Text>
+        <Heading>Event Details</Heading>
+        <Text>Ημερομηνία: Σάββατο 9/3/2024</Text>
+        <Text>Ώρα: 9:00 ΜΜ</Text>
+        <Text>Τοποθεσία: My place (επικοινωνήστε μαζί μου για τη διεύθυνση)</Text>
+        {/* Additional Info Here */}
+        <Heading>More Info</Heading>
+        <Text>Το gathering θα ειναι μέχρι τις 2πμ περίπου. Μετα θα ακολουθήσει έξοδος για να χορέψουμε τα κορμιά μας αλύπητα. Please RSVP :) </Text>
+        <Heading>Extra Info</Heading>
+        <Text>Bring your own booze αν θέλετε κάτι ξεχωριστό </Text>
       </FloatingFrame>
     </Container>
   );
