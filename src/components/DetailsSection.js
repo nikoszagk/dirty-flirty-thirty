@@ -1,6 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
+import { IoIosArrowDown } from 'react-icons/io'; // Example using react-icons
+
+const ScrollIndicator = styled(motion.div)`
+  position: fixed; // Or 'absolute' if inside a relative container
+  bottom: 20px;
+  transform: translateX(-50%);
+  color: #333; // Or any color that stands out against your background
+  font-size: 24px; // Adjust as needed
+  z-index: 100; // Ensure it's above other content
+  cursor: pointer; // Optional, if you want to make it clickable
+  user-select: none; // Prevent text selection
+`;
+
 
 const FloatingFrame = styled(motion.div)`
   padding: 20px;
@@ -46,6 +59,13 @@ const DetailsSection = () => {
         <Heading>Extra Info</Heading>
         <Text>Bring your own booze αν θέλετε κάτι ξεχωριστό </Text>
       </FloatingFrame>
+      <ScrollIndicator
+        animate={{ y: ['0%', '-20%', '0%'] }}
+        transition={{ duration: 2, repeat: Infinity }}
+        onClick={() => window.scrollBy({ top: window.innerHeight, behavior: 'smooth' })} // Optional: smooth scroll on click
+      >
+        <IoIosArrowDown /> {/* Example icon */}
+      </ScrollIndicator>
     </Container>
   );
 };
